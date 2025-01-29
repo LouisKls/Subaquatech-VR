@@ -1,0 +1,114 @@
+{
+    "name": "New Controls",
+    "maps": [
+        {
+            "name": "VRMap",
+            "id": "31c49a36-1efd-48e3-929b-d27d872181c2",
+            "actions": [
+                {
+                    "name": "Place",
+                    "type": "Button",
+                    "id": "057009b5-dcaf-4baf-aa91-62fb74ad130a",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Cancel",
+                    "type": "Button",
+                    "id": "c4190f98-c941-4266-8fe1-2a7c2489c12e",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Rotate",
+                    "type": "Button",
+                    "id": "fede9017-f89d-48ec-a6d3-fc293d2a080f",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "LeftJoystickClick",
+                    "type": "Button",
+                    "id": "cca6a4c6-eb1d-4dc0-b661-cd4f7628ce5a",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "TEST",
+                    "type": "Button",
+                    "id": "c7916980-481f-4da4-8610-91f77960563b",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "6dc24614-cf3c-4ef7-915a-35dd241e9b9c",
+                    "path": "<XRController>{RightHand}/{TriggerButton}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Place",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "1c04349c-da65-403d-9546-feb74db3bcc7",
+                    "path": "<XRController>{RightHand}/{GripButton}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Cancel",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "7db4822c-5c5c-4e4c-8e7f-298c3ad79844",
+                    "path": "<XRController>{RightHand}/{PrimaryButton}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Rotate",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "42aafe2b-cdb8-4a64-854a-926ef11bacbb",
+                    "path": "<XRController>{LeftHand}/{PrimaryButton}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "LeftJoystickClick",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "f91daf7c-9770-488f-9195-4da1a7b45e6f",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "TEST",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
